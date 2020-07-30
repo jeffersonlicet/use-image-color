@@ -4,19 +4,19 @@ Grab color pallete from any image using this hook
 <p align="center">
   <a href="http://hits.dwyl.com/jeffersonlicet/use-image-color"><img src="http://hits.dwyl.com/jeffersonlicet/use-image-color.svg"></a>
   <a href="https://www.npmjs.com/package/use-image-color"><img src="https://img.shields.io/npm/v/use-image-color?style=flat-square"></a>
-  <a href="https://bundlephobia.com/result?p=use-image-color@0.0.1"><img src="https://img.shields.io/bundlephobia/min/use-image-color?style=flat-square"></a>
+  <a href="https://bundlephobia.com/result?p=use-image-color@0.0.3"><img src="https://img.shields.io/bundlephobia/min/use-image-color?style=flat-square"></a>
 </p>
 
-![Example](https://i.imgur.com/LzxKgvl.png)
+![Example](https://i.postimg.cc/QCTjJ26r/a-min.png)
 
 ### Includes Image Component
 This image component renders a placeholder color while your original images are loading.
 
 **Before loading big images (color from smaller images)**
-![Before loading](https://i.imgur.com/ae6rWmO.png)
+![Before loading](https://i.postimg.cc/QN27ZhZ1/b.png)
 
 **After loading big images:**
-![After loading](https://i.imgur.com/6tLtzoP.png)
+![After loading](https://i.postimg.cc/BngPFFLB/c.png)
 
 # Installation:
 `npm install use-image-color`
