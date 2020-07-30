@@ -1,5 +1,5 @@
 # useImageColor
-Grab color pallete from any image using this hook
+Grab color palette from any image using this hook
 
 <p align="center">
   <a href="http://hits.dwyl.com/jeffersonlicet/use-image-color"><img src="http://hits.dwyl.com/jeffersonlicet/use-image-color.svg"></a>
