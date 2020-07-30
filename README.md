@@ -23,7 +23,7 @@ This image component renders a placeholder color while your original images are 
 
 # The hook:
 ## Usage:
-```
+```javascript
 import useImageColor from 'use-image-color'
 
 export function Card() {
@@ -33,7 +33,7 @@ export function Card() {
 ```
 
 ## Hook params:
-```
+```javascript
 useImageColor(url: String, options: OptionsObject)
 ```
 | param      | description                                            | default |
@@ -45,7 +45,7 @@ useImageColor(url: String, options: OptionsObject)
 
 # The component:
 ## Usage:
-```
+```javascript
 import { Image } from 'use-image-color'
 
 export function Card() {
