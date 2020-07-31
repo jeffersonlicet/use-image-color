@@ -21,6 +21,10 @@ This image component renders a placeholder color while your original images are 
 **After loading big images:**
 ![After loading](https://i.postimg.cc/BngPFFLB/c.png)
 
+## Live Sandbox demo:
+[Live Sandbox Demo](https://codesandbox.io/s/great-glade-sldoe?fontsize=14&hidenavigation=1&theme=dark)
+![](https://i.imgur.com/eS1AD26.png)
+
 ## How does this image component work?
 You must provide src (your original image) and a thumbnail (smaller image).
 As soon as the thumbnail is loaded the skeleton becomes visible using its dominant color. In the meantime, your original image continues loading, finally, when your original image arrives, it replaces the skeleton.
