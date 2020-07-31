@@ -25,6 +25,7 @@ const imageStyle = {
 
 export default function ImageComponent({
   src,
+  style,
   thumbnail,
   wrapperStyle,
   wrapperClassName,
@@ -34,7 +35,7 @@ export default function ImageComponent({
   return (
     <div className={wrapperClassName} style={{ ...wrapperDiv, ...wrapperStyle }}>
       { colors && <div style={{ ...bg, backgroundColor: colors[0] }} /> }
-      { <img style={{ ...imageStyle }} src={src} {...props} /> }
+      { <img style={{ ...imageStyle, ...style }} src={src} {...props} /> }
     </div>
   );
 }
