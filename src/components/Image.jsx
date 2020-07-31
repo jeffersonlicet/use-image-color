@@ -25,10 +25,10 @@ const imageStyle = {
 
 export default function ImageComponent({
   src,
-  style,
+  style = {},
   thumbnail,
-  wrapperStyle,
-  wrapperClassName,
+  wrapperStyle = {},
+  wrapperClassName = '',
   ...props
 }) {
   const { colors } = useImageColor(thumbnail, { cors: true });
