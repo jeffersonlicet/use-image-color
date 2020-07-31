@@ -4,10 +4,13 @@ Grab color palette from any image using this hook
 <p align="center">
   <a href="http://hits.dwyl.com/jeffersonlicet/use-image-color"><img src="http://hits.dwyl.com/jeffersonlicet/use-image-color.svg"></a>
   <a href="https://www.npmjs.com/package/use-image-color"><img src="https://img.shields.io/npm/v/use-image-color?style=flat-square"></a>
-  <a href="https://bundlephobia.com/result?p=use-image-color@0.0.3"><img src="https://img.shields.io/bundlephobia/min/use-image-color?style=flat-square"></a>
+  <a href="https://bundlephobia.com/result?p=use-image-color@0.0.7"><img src="https://img.shields.io/bundlephobia/min/use-image-color?style=flat-square"></a>
 </p>
 
 ![Example](https://i.postimg.cc/QCTjJ26r/a-min.png)
+
+## How does it work?
+It renders your image on a canvas and then generates its palette of colors using color quantization.
 
 ### Includes Image Component
 This image component renders a placeholder color while your original images are loading.
@@ -17,6 +20,10 @@ This image component renders a placeholder color while your original images are 
 
 **After loading big images:**
 ![After loading](https://i.postimg.cc/BngPFFLB/c.png)
+
+## How does this image component work?
+You must provide src (your original image) and a thumbnail (smaller image).
+As soon as the thumbnail is loaded the skeleton becomes visible using its dominant color. In the meantime, your original image continues loading, finally, when your original image arrives, it replaces the skeleton.
 
 # Installation:
 `npm install use-image-color`
@@ -60,4 +67,7 @@ export function Card() {
 |------------|--------------------------------------------------------|---------|
 | thumbnail  | Small version of your image  | true   |
 | src     | Original version of your image | true       |
+| wrapperStyle     | Style object to apply to the wrapper of the image and the color | false       |
+| wrapperClass     | Class to apply to the wrapper of the image and the color | false       |
+
 
