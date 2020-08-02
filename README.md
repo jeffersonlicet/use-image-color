@@ -2,7 +2,7 @@
 Grab color palette from any image using this hook
 
 <p align="center">
-  <a href="http://hits.dwyl.com/jeffersonlicet/use-image-color"><img src="http://hits.dwyl.com/jeffersonlicet/use-image-color.svg"></a>
+  <a href="https://badges.pufler.dev/visits/jeffersonlicet/use-image-color"><img src="https://badges.pufler.dev/visits/jeffersonlicet/use-image-color"></a>
   <a href="https://www.npmjs.com/package/use-image-color"><img src="https://img.shields.io/npm/v/use-image-color?style=flat-square"></a>
   <a href="https://bundlephobia.com/result?p=use-image-color@0.0.7"><img src="https://img.shields.io/bundlephobia/min/use-image-color?style=flat-square"></a>
 </p>
