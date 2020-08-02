@@ -10,7 +10,7 @@ const DEFAULT_SETTINGS = {
   format: FORMATS.hex,
 };
 
-export default function useImageColor(src, _settings) {
+export default function useImageColor(src, _settings = {}) {
   const settings = { ...DEFAULT_SETTINGS, ..._settings };
   const [colors, setColors] = useState();
 

@@ -1,6 +1,6 @@
 {
   "name": "use-image-color",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Grab color palette from any image using React hooks",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
